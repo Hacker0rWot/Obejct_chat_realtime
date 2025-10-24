@@ -76,3 +76,4 @@ io.on("connection", (socket) => {
 
 const PORT = process.env.PORT || 5000;
 server.listen(PORT, () => console.log(`Socket.IO server listening on http://localhost:${PORT}`));
+const CV_BACKEND_URL = "https://obejct-chat-cv-service.onrender.com";
